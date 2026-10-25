@@ -10,6 +10,7 @@ import {
   Search,
   Sparkles,
   Zap,
+  X,
 } from 'lucide-react';
 import { useRoadmap } from '../../context/RoadmapContext';
 import {
@@ -274,15 +275,25 @@ export const FocusTimer: React.FC = () => {
             </p>
           </div>
 
-          <div className="relative w-full sm:w-64">
-            <Search className="pointer-events-none absolute left-3 top-2.5 h-3.5 w-3.5 text-ink-muted" />
+          <div className="relative flex items-center w-full sm:w-72 shrink-0">
+            <Search className="pointer-events-none absolute left-3.5 h-4 w-4 text-ink-secondary" />
             <input
               type="text"
-              placeholder="Filter sessions..."
+              placeholder="Filter by activity, notes, day..."
               value={historySearch}
               onChange={(e) => setHistorySearch(e.target.value)}
-              className="w-full rounded-xl border border-[#BDDFC6] bg-white pl-8.5 pr-3 py-1.5 text-xs font-semibold text-ink-primary placeholder:text-ink-muted focus:border-brand-primary focus:outline-none font-sans shadow-bloom"
+              className="w-full rounded-xl border border-[#BDDFC6] bg-white pl-10 pr-9 py-2 text-xs font-semibold text-ink-primary placeholder:text-ink-secondary/70 focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/20 focus:outline-none font-sans shadow-bloom transition-bloom"
             />
+            {historySearch && (
+              <button
+                type="button"
+                onClick={() => setHistorySearch('')}
+                className="absolute right-2.5 p-1 rounded-lg text-ink-secondary hover:text-ink-primary hover:bg-[#E1F1E6] transition-bloom"
+                title="Clear filter"
+              >
+                <X className="h-3.5 w-3.5" />
+              </button>
+            )}
           </div>
         </div>
 
