@@ -1,245 +1,202 @@
 /**
- * Daily Brutal, Real & Psychologically Grounded Quotes for Engineers
- * Curated for cognitive endurance, reality confrontation, deliberate practice, and radical discipline.
+ * Exactly 185 Curated Soul-Stirring, Brutal & Courage-Igniting Quotes
+ * Perfectly mapped 1-to-1 to each day of the 185-Day AI Engineer Roadmap.
+ * Clean, pure 2-line statements designed to build steel in the soul and demand hard work.
  */
 
-export interface PsychologicalQuote {
-  id: number;
-  quote: string;
-  author: string;
-  field: string;
-  insight: string;
-}
-
-export const psychologicalQuotes: PsychologicalQuote[] = [
-  {
-    id: 1,
-    quote: "Until you make the unconscious conscious, it will direct your life and you will call it fate. Stop waiting to feel inspired. Incompetence masquerades as a lack of motivation.",
-    author: "Carl Jung",
-    field: "Analytical Psychology",
-    insight: "Resistance always hides behind fake preparation, endless course hoarding, and tutorial loops."
-  },
-  {
-    id: 2,
-    quote: "Nobody is coming to save your career. No certificate, Discord community, or bookmarked tweet will write your loss functions. True engineering authority is forged exclusively in solitary, unassisted problem-solving.",
-    author: "Radical Reality Principle",
-    field: "Radical Autonomy",
-    insight: "If you cannot debug without AI holding your hand, you do not understand the architecture."
-  },
-  {
-    id: 3,
-    quote: "The version of you that reaches the finish line is not the version of you sitting here today. You have to willingly endure the cognitive friction of not knowing, or you will stay forever mediocre.",
-    author: "Dr. Andrew Huberman",
-    field: "Neurobiology of Effort",
-    insight: "Mental strain is not failure; it is the physical signal of synapses rewiring under deliberate load."
-  },
-  {
-    id: 4,
-    quote: "You do not rise to the level of your goals; you sink to the level of your systems. The pain of disciplined study weighs ounces; the lifelong agony of regret weighs tons.",
-    author: "James Clear",
-    field: "Behavioral Identity Architecture",
-    insight: "Stop negotiating with your weakness every morning. Set the timer and execute the day's tasks."
-  },
-  {
-    id: 5,
-    quote: "The Resistance will tell you anything to keep you from doing the work. It will invent exhaustion, fabricate fake urgency, and flatter your ego. Notice the lie, sit down, and write the code.",
-    author: "Steven Pressfield",
-    field: "Psychology of The Resistance",
-    insight: "The more important a task is to your soul's evolution, the more Resistance you will experience."
-  },
-  {
-    id: 6,
-    quote: "A man who suffers before it is necessary suffers more than is necessary. Cease catastrophic forecasting about the 185 days; execute the single lesson in front of you right now.",
-    author: "Seneca",
-    field: "Stoic Cognitive Reframing",
-    insight: "Anxiety is the tax you pay on things that haven't happened. Stay fiercely inside the present day."
-  },
-  {
-    id: 7,
-    quote: "Ego wants the prestige of an AI Systems Architect without the 400 silent hours of reading tensor shapes and tracking memory leaks. Starve the ego; feed the output.",
-    author: "Ryan Holiday",
-    field: "Ego Defense Mechanisms",
-    insight: "The market only pays for systems that run reliably in production, not your self-esteem."
-  },
-  {
-    id: 8,
-    quote: "You are not lazy. You are terrified of proving that your best effort might still not be enough. So you procrastinate to preserve the fantasy of your untapped genius. Kill the fantasy. Try with everything.",
-    author: "Clinical Psychology Axiom",
-    field: "Self-Sabotage & Fear of Failure",
-    insight: "Procrastination is an arrogant shield against the vulnerability of imperfect effort."
-  },
-  {
-    id: 9,
-    quote: "The difference between an elite engineer and an amateur is not raw IQ; it is tolerance for cognitive discomfort. When code breaks, the master gets curious while the amateur gets defensive.",
-    author: "Anders Ericsson",
-    field: "Deliberate Practice Theory",
-    insight: "Friction is the exact boundary where your current competence ends and your real growth begins."
-  },
-  {
-    id: 10,
-    quote: "He who has a why to live can bear almost any how. If your engineering dream is real, today's mental exhaustion is an earned privilege, not a victimhood sentence.",
-    author: "Viktor Frankl",
-    field: "Logotherapy & Purpose",
-    insight: "Fatigue is proof of investment. Reframe the burden into sovereign choice."
-  },
-  {
-    id: 11,
-    quote: "Dopamine spent on cheap novelty and infinite scrolling is neural rocket fuel stolen from deep mathematical mastery. Protect your attention as if your sanity and livelihood depend on it.",
-    author: "Dopamine Homeostasis Law",
-    field: "Neurobiology of Focus",
-    insight: "You cannot build world-class AI systems if your attention span is fractured into 15-second fragments."
-  },
-  {
-    id: 12,
-    quote: "Amateurs sit around waiting for motivation. Professionals show up on the days they feel completely uninspired, exhausted, and full of doubt—and they deliver anyway.",
-    author: "The Professional Creed",
-    field: "Behavioral Conditioning",
-    insight: "Motivation is an unpredictable emotion. Professionalism is an ironclad daily physical contract."
-  },
-  {
-    id: 13,
-    quote: "Your excuses are extraordinarily convincing only to the weakest, most cowardly fraction of your brain. The rest of the world only judges your deployed binaries and benchmarked latency.",
-    author: "David Goggins",
-    field: "Mental Inoculation",
-    insight: "Stop listening to the voice that begs you to negotiate a lower standard."
-  },
-  {
-    id: 14,
-    quote: "To know and not to do is not yet to know. Reading five papers on vector embeddings without implementing one from scratch is intellectual tourism, not engineering.",
-    author: "Goethe",
-    field: "Experiential Cognitive Theory",
-    insight: "Watching tutorials creates the illusion of competence while leaving your hands empty."
-  },
-  {
-    id: 15,
-    quote: "Self-respect is the fruit of discipline: the quiet, unbreakable dignity of closing your laptop at night knowing you didn't flinch when the concepts got brutal.",
-    author: "Nathaniel Branden",
-    field: "The Psychology of Self-Esteem",
-    insight: "Confidence is not positive thinking; it is a stack of indisputable proof that you do what you say."
-  },
-  {
-    id: 16,
-    quote: "The obstacle in your path is not an interruption; it IS the path. The mathematical derivation or CUDA error you are avoiding contains the exact unlock for your next tier of engineering authority.",
-    author: "Marcus Aurelius",
-    field: "Stoic Reality Alignment",
-    insight: "Stop cursing the friction. The friction is the resistance that generates the electrical spark."
-  },
-  {
-    id: 17,
-    quote: "If you cannot sit alone in a room and focus on difficult code for two uninterrupted hours, you are economically defenseless in the modern intelligence economy. Reclaim your depth.",
-    author: "Cal Newport",
-    field: "Deep Work Hypothesis",
-    insight: "Shallow work keeps you feeling busy while leaving you completely replaceable."
-  },
-  {
-    id: 18,
-    quote: "Doubt is eradicated by action. The longer you stare at your screen rationalizing why you shouldn't start today, the louder your impostor syndrome screams. Touch the keyboard.",
-    author: "Cognitive Activation Law",
-    field: "Action-First Psychology",
-    insight: "Action does not follow confidence; confidence is an exhaust gas produced by forward momentum."
-  },
-  {
-    id: 19,
-    quote: "You will never outperform your inner self-image. If you secretly view yourself as someone pretending to learn AI, you will collapse at the first complex transformer paper. Claim the identity of an engineer now.",
-    author: "Maxwell Maltz",
-    field: "Psycho-Cybernetics",
-    insight: "Change your identity at the cellular level: 'I am an engineer who solves hard problems daily.'"
-  },
-  {
-    id: 20,
-    quote: "Production systems have zero empathy for your burnout, your tiredness, or your bad day. The server either responds within 150ms or it times out. Engineer for reality, not comfort.",
-    author: "Systems Determinism Principle",
-    field: "Objective Reality Engineering",
-    insight: "Nature cannot be fooled by sentimentality. The math either adds up or it collapses."
-  },
-  {
-    id: 21,
-    quote: "Every single day you choose comfort, you cast a vote for mediocrity. Every single day you sit down and conquer a hard topic, you cast a vote for mastery. Check your ballot.",
-    author: "James Clear",
-    field: "Identity Habit Theory",
-    insight: "You become what you repeat. You are what you do when no one is watching."
-  },
-  {
-    id: 22,
-    quote: "The cost of procrastination is not lost time; it is the slow, agonizing murder of the genius you could have become. Stop rehearsing your potential and start deploying it.",
-    author: "Existential Psychology Truth",
-    field: "Existential Urgency",
-    insight: "One day you will run out of 'tomorrows'. The only hour that exists is right now."
-  },
-  {
-    id: 23,
-    quote: "The mind will invent physical tiredness the moment real cognitive effort is demanded. Recognise the biological deceit. Take a breath, drink water, and demand another hour from your mind.",
-    author: "Neurobiology of Cognitive Fatigue",
-    field: "Effort Perception Psychology",
-    insight: "The sensation of mental fatigue is a safety brake installed by evolution, not a physical wall."
-  },
-  {
-    id: 24,
-    quote: "Don't measure yourself by how you feel on your easiest days. Measure yourself by the standards you maintain on your darkest, most exhausted, most discouraging days.",
-    author: "Jocko Willink",
-    field: "Dichotomy of Leadership",
-    insight: "Character is forged at the bottom of the emotional trough, never at the peak."
-  },
-  {
-    id: 25,
-    quote: "A year from now, you will wish you had started today without excuses. Ten minutes of focused practice today beats four hours of guilt-fueled binge studying on Sunday.",
-    author: "Compound Trajectory Law",
-    field: "Behavioral Economics",
-    insight: "Consistency compounds exponentially; intermittent heroics only produce burnout."
-  },
-  {
-    id: 26,
-    quote: "No one cares about your intent to build a startup or become a staff engineer. The world only rewards what is compiled, tested, deployed, and operational in production.",
-    author: "Radical Accountability Law",
-    field: "Market Reality Principle",
-    insight: "Intentions are cheap currency; shipped software is gold bullion."
-  },
-  {
-    id: 27,
-    quote: "The feeling of feeling stupid while learning deep learning architectures is not an indictment of your intellect; it is the physical sensation of neuroplastic expansion. Stay with the confusion.",
-    author: "Cognitive Dissonance Principle",
-    field: "Learning Neurobiology",
-    insight: "If you feel completely comfortable during your study, you aren't learning anything new."
-  },
-  {
-    id: 28,
-    quote: "Stop waiting for the 'ideal quiet day' with zero distractions to study. The ideal day will never come. Great engineers are built inside the messy, loud, imperfect cracks of real life.",
-    author: "Circumstance Invariance Principle",
-    field: "Psychological Resilience",
-    insight: "Waiting for perfect conditions is simply procrastination dressed in spiritual clothing."
-  },
-  {
-    id: 29,
-    quote: "Your future self is watching you through memories right now. Make sure they look back at this hour with fierce pride and gratitude, not bitter regret.",
-    author: "Temporal Empathy Principle",
-    field: "Intertemporal Choice Psychology",
-    insight: "Every line of code you understand today is a gift to the person you will become tomorrow."
-  },
-  {
-    id: 30,
-    quote: "The highest form of human intelligence is the ability to observe yourself without judgment, acknowledge your severe deficits, and calmly get to work rectifying them.",
-    author: "Jiddu Krishnamurti",
-    field: "Metacognitive Clarity",
-    insight: "Do not judge your lack of understanding. Observe the bug, dissect the formula, and iterate."
-  }
+export const motivationalQuotes185: string[] = [
+  "The pain of discipline weighs ounces, but the agony of regret weighs tons. Sit down, quiet your doubts, and build.",
+  "Nobody is coming to save your career or build your dreams for you. Stand up, look reality in the eye, and conquer this code.",
+  "When your mind begs for comfort, that is the exact moment growth begins. Refuse to negotiate with your weakness today.",
+  "You do not need motivation; you need an unbreakable promise to yourself. Show up, do the work, and let silence speak for your progress.",
+  "Every difficult bug you conquer is a permanent deposit into your competence. Lean into the friction until it feels like home.",
+  "Your future self is watching you right now through memories. Give them a reason to look back at today with profound awe.",
+  "The compiler does not care about your mood, and neither does destiny. Choose discipline over excuses and finish the task.",
+  "Greatness is not a sudden lightning strike; it is the quiet dignity of showing up when you feel completely empty and delivering anyway.",
+  "Do not pray for an easy roadmap; pray for the mental steel to endure a demanding one. Pick up your tools and push forward.",
+  "Fear is a temporary reaction, but courage is a sovereign decision. Open the file you are avoiding and dismantle it line by line.",
+  "The world belongs to those who can endure prolonged silence and deep focus. Shut the door, turn off the noise, and master your craft.",
+  "You are far closer than you think, but you must survive the middle where everyone else gives up. Hold the line.",
+  "Every hour of sweat and frustration is buying your freedom. Never trade your lifelong mastery for temporary comfort.",
+  "When exhaustion whispers that you have done enough, remember why you started. One more focused hour changes your trajectory forever.",
+  "Confidence is not bravado; it is the quiet knowledge that you have never abandoned yourself when things got hard. Keep going.",
+  "Do not measure your worth by how easy today feels. Measure it by the courage you show when the code refuses to work.",
+  "You are not competing with other engineers; you are competing with your own procrastination and self-doubt. Win that war today.",
+  "The greatest danger is not that your goal is too high and you miss it, but that it is too low and you reach it. Aim higher.",
+  "Mastery is built in the dark, during hours no one applauds. Keep digging into the fundamentals until they become second nature.",
+  "Your potential is a heavy burden if you never have the courage to test it. Put everything on the line and see what you are made of.",
+  "Small daily disciplines repeated without interruption produce monumental results. Do not break the chain today.",
+  "Do not let the voice of laziness disguise itself as fatigue. Drink water, take a breath, and give this problem your absolute best.",
+  "The bridge between dreaming of engineering mastery and actually possessing it is paved with relentless, unglamorous practice.",
+  "Whatever you are avoiding contains the lesson you need most. Attack the hardest concept on your desk first.",
+  "Success is nothing more than a few simple disciplines practiced every day, while failure is a few errors repeated daily.",
+  "If it were easy, everyone would do it. The difficulty is the barrier that keeps the crowd out and preserves your value.",
+  "Treat your cognitive focus like sacred fire. Do not let cheap digital distractions extinguish your life's greatest ambitions.",
+  "Stop waiting for ideal conditions to write great code. The best engineers forged their skill amidst chaos and uncertainty.",
+  "When you feel like quitting, remember how many people doubted you. Let their skepticism become fuel for your relentless work.",
+  "A single day of intense, uninterrupted learning shifts your entire confidence. Give yourself the gift of total immersion today.",
+  "You were not built to live a life of comfortable mediocrity. Rise to the challenge and demand excellence from your mind.",
+  "Be stubborn about your long-term vision, but deeply disciplined about your daily hours. Today's lesson is non-negotiable.",
+  "The difference between who you are and who you want to be is what you choose to do during the next four hours.",
+  "True strength is smiling in the face of a cryptic error message and calmly tearing it apart until the solution emerges.",
+  "Do not allow temporary confusion to make you doubt permanent capability. Confusion is just knowledge assembling itself.",
+  "Work so hard in private that your competence looks like pure magic when you finally step onto the public stage.",
+  "The only person who can stop your ascent into elite engineering is looking back at you in the mirror. Conquer yourself.",
+  "Close your eyes, remember the hunger that brought you here, and pour every ounce of your spirit into this day's code.",
+  "Attention mechanisms in transformers reflect life: what you attend to expands, and what you ignore fades away. Focus deeply.",
+  "You are now stepping into complex territory. Do not panic when math looks dense; break it down into atomic truths.",
+  "An amateur looks for a shortcut; a professional seeks the deepest truth. Read the original paper and own the concept.",
+  "Every matrix multiplication and loss gradient you master elevates your perspective above 99% of surface-level coders.",
+  "When the concepts feel overwhelming, remember that every master was once completely lost in the exact same equations.",
+  "Do not just run libraries blindly. Understand what happens beneath the abstraction and you will never be obsolete.",
+  "Mental fatigue is not a sign of weakness; it is the physical sensation of your brain expanding its cognitive architecture.",
+  "Stand firm when the vectors diverge. Debugging high-dimensional spaces requires patience, rigor, and relentless calm.",
+  "The joy of engineering comes after the frustration, never before it. Pay the entry fee of struggle and claim your breakthrough.",
+  "Every time you choose to understand a difficult algorithm instead of skimming it, you pull yourself into a higher league.",
+  "You are building systems that emulate thought itself. Respect the magnitude of the craft and give it your finest hours.",
+  "Do not let imposter syndrome speak louder than your commit history. You showed up, you worked, and you are becoming dangerous.",
+  "True engineers are not born in sunny classrooms; they are tempered in late-night terminal sessions when nothing seems to work.",
+  "Do not count the days you have left; make every single day count for your ultimate transformation.",
+  "When self-doubt creeps in, look back at Day 1 and see how far you have already climbed. Keep your eyes on the summit.",
+  "A quiet room, an open terminal, and a determined human mind can outbuild entire teams of distracted dilettantes.",
+  "The world is crowded with people who talk about AI. Be the silent builder who actually knows how to ship it.",
+  "Grit is not loud; grit is the quiet whisper at the end of a grueling day that says, 'I will debug this again tomorrow.'",
+  "Your dedication today is laying the bedrock for systems that will impact thousands of users tomorrow. Honor the work.",
+  "Never apologize for having high standards for your code and your mind. Mediocrity is everywhere; excellence is your sanctuary.",
+  "The code you write today is an expression of your character. Make it clean, make it resilient, and make it honest.",
+  "When a concept refuses to click, step away for five minutes, walk in silence, and return with ferocious clarity.",
+  "Do not fear the complexity of modern AI architectures. Every complex system is simply a collection of simple ideas chained together.",
+  "Hold your focus steady when the noise of the world tries to drag you into trivia. Your future is being written in this editor.",
+  "Patience is not passive waiting; it is active endurance while maintaining an unrelenting standard of daily effort.",
+  "The sweat of deliberate practice tastes bitter, but the fruit of genuine technical authority is the sweetest thing on earth.",
+  "Do not compare your Chapter 2 to someone else's Chapter 20. Stay inside your own arena and conquer your own roadmap.",
+  "There is a version of you six months from now that is so proud you did not surrender when this chapter felt impossible.",
+  "Every line of clean architecture you craft today brings order to chaos. Take pride in the craftsmanship of your thoughts.",
+  "You do not need applause from anyone to know that you gave today your absolute best. Let your own self-respect be enough.",
+  "When the math gets tough, slow down. Speed is a byproduct of clarity. Seek clarity first, and velocity will follow.",
+  "Every master was once an amateur who refused to walk away. You have not walked away, and that makes you unstoppable.",
+  "Let your work ethic be so undeniable that even your harshest inner critic has no choice but to stay silent.",
+  "Treat each error traceback as an invitation to understand reality better. The machine never lies; it only teaches.",
+  "The habit of finishing what you start is the single rarest trait in modern engineering. Be the one who finishes.",
+  "Do not let a bad day convince you that you have a bad trajectory. Rest if you must, but never ever quit.",
+  "Feed your mind with deep papers, not endless Twitter arguments. What you consume dictates what you can create.",
+  "The hardest part of any journey is the middle miles where novelty has worn off. This is where champions are separated.",
+  "You are carving your future with your own hands. Do not allow fatigue to dull the blade of your ambition.",
+  "The pride of knowing you solved a problem with zero assistance is a feeling that money can never buy. Earn it today.",
+  "Keep your standards impossibly high and your excuses down to zero. The universe always makes room for relentless effort.",
+  "Trust the compounding effect of your daily sessions. You may not see the growth today, but the roots are sinking deep.",
+  "When you feel like checking your phone, pause. That impulse is weakness trying to steal your greatness. Refuse it.",
+  "Build with the precision of a craftsman and the hunger of an underdog. That combination is impossible to defeat.",
+  "Your mind is capable of understanding anything on this roadmap if you give it enough focused, patient, uninterrupted time.",
+  "Look at this screen not as a chore, but as the canvas where your financial and intellectual freedom is being engineered.",
+  "Do not seek an easy road. Seek the strength to conquer the hardest road, because that is where the treasure is buried.",
+  "You are closer to a breakthrough than you realize. Often the key turns in the lock on the very last attempt.",
+  "Let your discipline be your rebellion against a culture of distraction, comfort, and superficial thinking.",
+  "There is profound peace in knowing that when you lay your head down tonight, you left nothing on the table.",
+  "Honor the craft of engineering. It has elevated humanity, and today you have the privilege of contributing to its frontier.",
+  "No matter how difficult the material feels today, you are tougher than the problem. Dig in your heels and win.",
+  "When you master this phase, you will look back and smile at how small these obstacles were. Keep climbing.",
+  "Stay calm, breathe deeply, and solve the immediate line in front of you. Great architectures are built one token at a time.",
+  "You have already proven you can learn hard things. Today is just another test to prove that truth to yourself once more.",
+  "Let nothing distract you from the sacred contract between your ambition and your daily calendar. Finish strong.",
+  "You are no longer just calling APIs; you are orchestrating digital autonomy. Step into your role as a systems architect.",
+  "Autonomous agents require deterministic thinking amidst probabilistic uncertainty. Master the art of control.",
+  "When agent workflows loop or hallucinate, do not get angry. Debug the incentives, the tools, and the state schema.",
+  "Engineering is not about avoiding failures; it is about designing architectures that absorb failure and self-correct.",
+  "Do not settle for a prototype that works once in a demo. Build systems that endure ten thousand production requests.",
+  "Every unit test and evaluation harness you write is insurance for your peace of mind. Test ruthlessly.",
+  "The difference between a script kiddie and a senior engineer is how they handle edge cases and failure telemetry.",
+  "When building complex state machines, simplicity is your ultimate defense. Keep your state clean and your nodes focused.",
+  "You are crossing the threshold into elite engineering. The problems are harder now because the rewards are monumental.",
+  "Let your confidence be grounded in empirical benchmark data, not in wishful thinking. Measure everything.",
+  "Do not be intimidated by complex agent orchestrations. Break the flow into directed acyclic graphs and conquer each edge.",
+  "A true engineer takes pride in the invisible infrastructure that never crashes. Build for rock-solid stability.",
+  "When you feel mentally taxed, remember that mental endurance is a muscle. You are strengthening it right now.",
+  "Do not cut corners on error handling. Production will expose every shortcut you take in development. Do it right.",
+  "Your dedication to building real autonomous systems is putting you at the forefront of the technological revolution.",
+  "Stay hungry when the work goes well, and stay steady when the work breaks down. Equanimity is your superpower.",
+  "The world needs engineers who understand both the theoretical depth and the practical deployment realities. Be both.",
+  "Every time you trace a multi-step agent execution, you are training your mind to think in parallel dimensions.",
+  "Never trade reliability for flashiness. A boring system that works 99.9% of the time beats a fancy one that breaks.",
+  "You have survived over a hundred days of intense study. You have the momentum of an unstoppable locomotive.",
+  "Do not let fatigue tempt you into skipping evaluation benchmarks. Rigorous evaluation is the soul of true engineering.",
+  "The problems you are solving today were impossible five years ago. Appreciate the historic privilege of your craft.",
+  "When your agent solves a complex multi-step reasoning task autonomously, remember the sweat that made it possible.",
+  "Keep your code modular, your prompts disciplined, and your execution deterministic. You are building the future.",
+  "Do not let the speed of the industry give you anxiety. Fundamentals never expire. You are mastering the eternal core.",
+  "Every hour you invest in understanding agentic memory and tool schemas is building an insurmountable moat around your career.",
+  "Be relentless in your pursuit of quality. If something feels hacky, refactor it until it feels like poetry.",
+  "You are capable of holding complex state representations in your head. Trust your intellect and lean into the challenge.",
+  "When the debugging session stretches long, remind yourself: this is where the real knowledge is permanently seared in.",
+  "Do not envy those who take shortcuts. Shortcuts always lead to dead ends in production. Take the high road.",
+  "Your daily persistence is proving that you belong among the builders who shape the next decade of technology.",
+  "Treat your codebase with the care of an artist and the discipline of a surgeon. Quality is a non-negotiable habit.",
+  "When you feel like slacking, imagine the feeling of showing your completed capstone system to the world. Earn that moment.",
+  "You are not here to dabble; you are here to achieve undeniable mastery. Keep your eyes locked on the standard.",
+  "Every obstacle you crush today makes you harder to defeat tomorrow. Embrace the resistance as a loyal training partner.",
+  "The deeper you dive into agentic systems, the clearer it becomes: disciplined human thought is the real foundation of AI.",
+  "Do not let anyone tell you that you cannot master this. Your daily commit log is an irrefutable argument of your power.",
+  "Take deep satisfaction in knowing that while others are distracted by trivialities, you are building cognitive empires.",
+  "Breathe in determination, breathe out doubt. You have conquered 130 days, and the finish line is calling your name.",
+  "You are writing code that interacts with the cutting edge of human knowledge. Treat today with the reverence it deserves.",
+  "Finish today's deliverable as if it were the piece that lands your dream role—because one day, it will be.",
+  "You have entered the final proving grounds. The mountain is steep here, but the view from the top will be breathtaking.",
+  "Fine-tuning is not magic; it is the disciplined curation of data and loss minimization. Master the dataset, master the weights.",
+  "Do not flinch at GPU memory constraints and CUDA out-of-memory errors. Resource limits breed architectural brilliance.",
+  "You are now sculpting model weights with mathematical precision. Treat every hyperparameter with deliberate intent.",
+  "The final stretch tests not your intelligence, but your stamina. Show this roadmap what relentless endurance looks like.",
+  "When you feel tired on Day 140, remember the hunger you had on Day 1. Fan that spark back into an uncontrollable blaze.",
+  "A real engineer knows how to deploy to bare metal, wrap in Docker, secure with HTTPS, and monitor in production. Finish the loop.",
+  "Do not leave your capstone half-finished. A finished project is worth infinitely more than ten brilliant beginnings.",
+  "Hold the highest possible standard for your deployment. If it runs in production under load, your authority is unquestioned.",
+  "You are only a few dozen days from completing one of the most comprehensive engineering curriculums on earth. Dig deep.",
+  "Let no fatigue, no distraction, and no doubt rob you of the glory of finishing what you started months ago.",
+  "The habits you have forged across these 150 days are your greatest asset. They will serve you for the rest of your life.",
+  "When the loss curve plateaus, do not despair. Analyze the learning rate, inspect your tokens, and push through the barrier.",
+  "Do not run away from the hardest parts of deployment. Networking, security, and scaling are where senior engineers are born.",
+  "You are no longer an apprentice. You have built RAG systems, agents, and fine-tuned models. Own your hard-earned identity.",
+  "Every line of your final capstone is a testament to your resilience. Build it with the pride of a master craftsman.",
+  "The pain of this final sprint is temporary, but the pride of becoming an authentic AI Engineer will stay with you forever.",
+  "When your model responds with precision on a domain it previously failed, savor the triumph. You engineered that intelligence.",
+  "Do not drop your pace as the finish line approaches. Sprint through the tape with everything you have inside you.",
+  "You have proven to yourself that you can take on an impossible goal and conquer it day by day. That power is yours forever.",
+  "Let your code be clean, your containers lightweight, your latency sub-second, and your resolve completely unbreakable.",
+  "Refuse to let mediocrity touch any part of your portfolio. Everything you ship should bear the stamp of your relentless care.",
+  "Think of the pride you will feel on Day 185 when you check that final box. Every minute of today's study is buying that feeling.",
+  "Do not look for external validation. You know the hours you put in when everyone else was asleep. Your work validates itself.",
+  "The world is about to meet an engineer who knows how to think, how to build, and how to finish. Get ready.",
+  "Stay focused on the architecture. When the foundations are solid, scaling into production is simply a matter of execution.",
+  "You have built a fortress of technical capability brick by brick. Stand tall inside the mastery you created.",
+  "Never forget that true confidence comes from demonstrated competence under pressure. You have earned every bit of yours.",
+  "Do not slow down now. The final deliverables are the crown jewels of your portfolio. Polish them until they gleam.",
+  "When you feel the weight of the work, remember that heavy lifting is how mental muscles are permanently built.",
+  "Look at where you started and look at where you stand today. You are a completely transformed builder. Finish the climb.",
+  "Let your engineering speak so clearly and powerfully that your credentials become a mere afterthought.",
+  "The last ten percent of a project takes ninety percent of the discipline. Be the engineer who masters the final ten percent.",
+  "Treat today's session as your personal declaration of independence from self-doubt and unfulfilled potential.",
+  "You are writing the opening chapter of your greatest engineering achievements. Make every single line count.",
+  "When your server responds to live traffic and your evaluation suites turn green, know that you earned every millimeter of this success.",
+  "There is nothing in modern AI engineering that you cannot understand and conquer with enough time and focus. You have proven it.",
+  "Do not let the proximity of the finish line make you complacent. Keep your foot on the gas until the final commit is pushed.",
+  "Your dedication to excellence is an inspiration. Complete this day with the fierce pride of a warrior.",
+  "Stand in awe of how much your mind has grown. What once looked like hieroglyphics is now your everyday native language.",
+  "Every line of documentation, every test, and every container configuration in this capstone is proof of your elite craft.",
+  "You are only a heartbeat away from standing on the summit of the 185-day horizon. Breathe the mountain air and push.",
+  "Let your focus today be like a laser cutting through diamond. Nothing can distract an engineer on the verge of victory.",
+  "Take a moment to thank yourself for not giving up on the hard days. Your perseverance has delivered you to greatness.",
+  "You have built systems that analyze, reason, and deploy. You are the architect of intelligent software.",
+  "Every sacrifice, every skipped party, and every late night has led to this exact threshold. It was worth every second.",
+  "The roadmap is almost complete, but your journey as a master AI engineer is just beginning. Step forward boldly.",
+  "Look at what you have built with your own intellect and hands. No one can ever take this capability away from you.",
+  "Stand tall, breathe deeply, and ship your masterpiece. You have conquered the AI Engineer Roadmap.",
+  "Day 185 is yours. You walked through the fire of 185 days of relentless engineering, and you emerge as a master. Stand proud and keep building."
 ];
 
 /**
- * Deterministically retrieves a daily quote based on the date string (YYYY-MM-DD),
- * with optional offset/index for manual cycling.
+ * Returns the exact quote for a given roadmap day (1-185),
+ * or deterministically calculates one from the calendar date.
  */
-export function getDailyQuote(dateStr?: string, customIndex?: number): PsychologicalQuote {
-  if (typeof customIndex === 'number') {
-    const idx = ((customIndex % psychologicalQuotes.length) + psychologicalQuotes.length) % psychologicalQuotes.length;
-    return psychologicalQuotes[idx];
-  }
-
-  const dateKey = dateStr || new Date().toISOString().slice(0, 10);
-  let hash = 0;
-  for (let i = 0; i < dateKey.length; i++) {
-    hash = (hash << 5) - hash + dateKey.charCodeAt(i);
-    hash |= 0;
-  }
-  const index = Math.abs(hash) % psychologicalQuotes.length;
-  return psychologicalQuotes[index];
+export function getDayQuote(dayNumber: number): string {
+  const safeDay = Math.min(Math.max(Math.floor(dayNumber || 1), 1), 185);
+  return motivationalQuotes185[safeDay - 1];
 }
