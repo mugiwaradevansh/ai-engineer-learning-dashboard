@@ -364,16 +364,20 @@ export const DailyStudyRoom: React.FC = () => {
               </div>
               <button
                 onClick={handleCopyTask}
-                className="flex items-center gap-1.5 rounded-xl border border-surface-border bg-white px-3 py-1.5 text-xs font-bold text-ink-primary hover:bg-brand-primary hover:text-white transition-bloom font-sans shadow-bloom active:scale-95"
+                className={`flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-bold transition-bloom font-sans shadow-bloom active:scale-95 ${
+                  isCopiedTask
+                    ? 'bg-[#107569] text-white border border-[#0B544B]'
+                    : 'bg-white text-ink-primary border border-surface-border hover:bg-brand-primary hover:text-white'
+                }`}
               >
                 {isCopiedTask ? (
                   <>
-                    <Check className="h-3 w-3 text-phase3-accent" />
-                    <span className="text-phase3-accent font-bold">Copied!</span>
+                    <Check className="h-3.5 w-3.5 text-white stroke-[2.5]" />
+                    <span className="font-bold text-white tracking-wide">Copied!</span>
                   </>
                 ) : (
                   <>
-                    <Copy className="h-3 w-3" />
+                    <Copy className="h-3.5 w-3.5" />
                     <span>Copy Task</span>
                   </>
                 )}
